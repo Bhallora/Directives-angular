@@ -1,0 +1,9 @@
+{
+    "id": "4ccace9d-9239-4961-9e35-41d4a040b006",
+    "name": "my-ngdirective-app",
+    "url": "http://localhost:8080/my-ngdirective-app/",
+    "oidcClientId": "my-ngdirective-app",
+    "entitlements": [
+        { "id": "c2955864-d6a7-4f72-8ce2-6be3a994cdbd", "name": "Access Application" }
+    ]
+}
