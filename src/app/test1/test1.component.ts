@@ -17,8 +17,6 @@ export class Test1Component implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    // onKey(event:any) { // without type info
-    //   this.input = event.target.value}
   
   }
 
