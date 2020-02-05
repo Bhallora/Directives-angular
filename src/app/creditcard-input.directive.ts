@@ -44,20 +44,6 @@ export class CreditcardInputDirective {
   @HostListener("window:keydown", ["$event"]) keyEvent(event: KeyboardEvent) {
     this.location2 = this.elem.nativeElement.selectionEnd;
     if (event.keyCode == 8) {
-      // event.preventDefault();
-
-      //  if(this.elem.nativeElement.value.length!== this.location)
-      //   {
-      //     this.elem.nativeElement.value =
-      //       this.elem.nativeElement.value.substr(0, this.location - 1) +
-      //       this.elem.nativeElement.value.substr(
-      //         this.location,
-      //         this.elem.nativeElement.value.length + 1
-      //       );}
-
-      // }
-      // // {return;}
-      // else
       if (this.elem.nativeElement.value.length == this.location2) {
         event.preventDefault();
         if (
@@ -76,15 +62,6 @@ export class CreditcardInputDirective {
           );
         }
       }
-
-      // else if(this.elem.nativeElement.value.length!== this.location)
-      //   { event.preventDefault();
-      //     this.elem.nativeElement.value =
-      //       this.elem.nativeElement.value.substr(0, this.location - 1) +
-      //       this.elem.nativeElement.value.substr(
-      //         this.location,
-      //         this.elem.nativeElement.value.length + 1
-      //       );}
     }
   }
 
@@ -97,7 +74,6 @@ export class CreditcardInputDirective {
     console.log(this.location1);
 
     if (initialValue !== this.elem.nativeElement.value) {
-      // event.stopPropagation();
       event.preventDefault();
     }
 
@@ -134,4 +110,3 @@ export class CreditcardInputDirective {
     }
   }
 }
-// }}
