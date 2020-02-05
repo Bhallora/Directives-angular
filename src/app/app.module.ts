@@ -31,7 +31,9 @@ import { HomeComponent } from './home/home.component';
 import { AppSettingsComponent } from './app-settings/app-settings.component';
 import { NavigationSubitemsService } from '@kognifai/poseidon-ng-navigation-subitems-service';
 import {Test1Module} from './test1/test1.module';
-import { ChangeColorDirective } from './change-color.directive';
+// import { CreditcardInputDirective } from './creditcard-input.directive';
+// import { InputFilterDirective } from './input-filter.directive';
+
 
 
 export function initConfig(config: ConfigurationService<IConfiguration>) {
@@ -57,7 +59,9 @@ export function initConfig(config: ConfigurationService<IConfiguration>) {
     AppComponent,
     AppSettingsComponent,
     MainComponent,
-    HomeComponent
+    HomeComponent,
+    // CreditcardInputDirective,
+    // InputFilterDirective
   ],
   entryComponents: [ ],
   providers: [

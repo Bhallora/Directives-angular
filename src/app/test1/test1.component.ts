@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ChangeColorDirective } from '../change-color.directive';
+// import { ChangeColorDirective } from '../change-color.directive';
+// import {InputFilterDirective} from '../input-filter.directive';
 
 @Component({
   selector: 'app-test1',
@@ -8,9 +9,19 @@ import { ChangeColorDirective } from '../change-color.directive';
 })
 export class Test1Component implements OnInit {
 
+
+  value:string="";
+  
+   
+
   constructor() { }
 
   ngOnInit() {
+    // onKey(event:any) { // without type info
+    //   this.input = event.target.value}
+  
   }
+
+  
 
 }

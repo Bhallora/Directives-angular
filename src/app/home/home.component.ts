@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-  public title = 'my-ngdirective-app';
+  public title = 'Directives Test';
 }
